@@ -1,0 +1,63 @@
+body {
+  background-color: darkcyan;
+}
+:root {
+  --mainColor: #008b8b;
+}
+/* -------------------------- */
+#login_text {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+  color: darkcyan;
+}
+
+#login_form {
+  background-color: white;
+  width: 20%;
+  height: 400px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 3%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px var(--mainColor);
+}
+
+#form_login {
+  padding: 0px 20px;
+  /* width: 80%; */
+}
+
+label {
+  color: var(--mainColor);
+}
+
+.form_input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 30px;
+  border: 2px solid var(--mainColor);
+  border-radius: 3px;
+}
+#forgetPass {
+  margin-top: 0;
+  text-decoration: none;
+}
+#forgetPass > h5 {
+  margin-top: -20px;
+}
+#login_button {
+  width: 7em;
+  height: 2em;
+  margin: 0 10em;
+  background-color: var(--mainColor);
+  color: white;
+  border-radius: 5px;
+  cursor: cell;
+}
+
+#singUp_click {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: normal;
+}
